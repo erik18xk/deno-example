@@ -5,7 +5,7 @@ const client = await new Client().connect({
     hostname: '172.17.0.2',
     username: 'root',
     db: 'todos',
-    password: 'Teodolite18',
+    password: 'changePassword',
 })
 
 await client.execute(`CREATE DATABASE IF NOT EXISTS todos`);
